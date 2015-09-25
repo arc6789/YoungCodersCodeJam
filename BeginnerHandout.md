@@ -143,8 +143,10 @@ Did it store `10` in `abc`?  Great!
 
 ### Variable names
 Your variables can have very complex names or very simple names, it is completely up to you.  However, you have to follow a few simple rules:
+
 1. your variable name has to start with a letter
 1. your variable name can only have letters, numbers, or the underscore `_` character
+
 How long do you think you can make a variable name?  Can you make a variable named after you (Remember: you can't use a space in your variable name)?
 
 ### Try it!
