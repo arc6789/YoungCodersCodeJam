@@ -26,6 +26,7 @@ Once you've clicked on the Python interpreter it should start up and show you a 
 When you work with the Python interpreter it takes what you type and after you press enter it compiles your code (a fancy phrase that means translate it into computer language) and executes your code.  To give the interpreter your code type it where you see the `>>>` prompt in the window.  For instance, when you first start it up you will see something like this:
 
 ![Python interpreter screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/python_interpreter_window.png)
+
 If you want to enter code, just start typing in there!
 
 # Activities
@@ -37,9 +38,6 @@ Want to have Python help you with your math homework?  Let's see if Python can d
 ```
 >>> 1 + 1
 ```
-
-Write Python's answer here:
-___
 
 Did Python get it right?  Let's try another:
 
@@ -193,7 +191,11 @@ Now you know some basics about Python, so we are going to turn you loose with so
 
 ![Python exception screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/menu_python_games.png)
 
-Once you click on that item it will bring up a list of games you can play that were written in Python.  Feel free to play those games.  However, if you want to write some code for those games, you can open the Python code in an editor and change them!  If you want to edit the game code, go back to your Python interpreter window and choose "File" and then choose "Open".  Navigate to the "python_games" directory and choose the file that is named the same as the game you want to edit.  When that code comes up it will be in an editor that you can use to change the code.  Go through the code and try changing some values to see how it affects the game.  Can you change the color of the squirrel?  Can you make the snake longer to start out?  Have fun changing the code and be sure to ask questions!
+Once you click on that item it will bring up a list of games you can play that were written in Python.  Feel free to play those games.  However, if you want to write some code for those games, you can open the Python code in an editor and change them!  If you want to edit the game code, go back to your Python interpreter window and choose "File" and then choose "Open".  Navigate to the "python_games" directory and choose the file that is named the same as the game you want to edit.  When that code comes up it will be in an editor that you can use to change the code.  Go through the code and try changing some values to see how it affects the game.  
+* Can you change the color of the squirrel?  
+* Can you make the snake longer to start out?  
+
+Have fun changing the code and be sure to ask questions!
 
 # Conclusion
 We hope you had fun learning some Python code today.  If you have any questions, please feel free to ask one of our volunteers.  Keep trying out more code with Python, and most importantly: don't give up!  Python can be a lot of fun.
@@ -201,6 +203,7 @@ We hope you had fun learning some Python code today.  If you have any questions,
 ## Links to more information
 
 If you would like more information on the following topics, hit the websites listed:
-[Raspberry Pi](http://www.raspberrypi.org)
-[Python](https://www.python.org)
-[San Antonio Code Jam](http://www.sacodejam.com/)
+
+* [Raspberry Pi](http://www.raspberrypi.org)
+* [Python](https://www.python.org)
+* [San Antonio Code Jam](http://www.sacodejam.com/)
