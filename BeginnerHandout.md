@@ -159,4 +159,48 @@ In Python if you want to store and use textual information we can do so using st
 ```
 That code creates a variable called `my_string` and stores the text `abc123` in there.  Notice that it doesn't store the `"` symbol in the variable, the `"` is just a way to tell python "Everything in here is the string".
 
+### Try it!
+Create some strings with some fun phrases.  Try creating a joke by setting the variables with the strings that make up the joke.  Make sure you put all your text content in quotes, and leave the variables outside the quotes.
+
 ## Activity 6  Exceptions
+Sometimes you, or Python, encounters an error in your code.  Whenever Python has an error it generates what is called an **exception**.  Exceptions aren't bad, and they aren't a sign that you broke Python, but they do mean something went wrong.  An example of en exception is shown in the screenshot below:
+
+![Python exception screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/exception.png)
+
+If you get an exception, take a look at your code and see if you can figure out what went wrong.  If you can't figure it out, feel free to ask one of us for help!  
+
+## Activity 7  Lists
+Not only can Python store a single value in a variable, but it can also store a list of values.  A list is a construct in Python that can hold any number of items, and each of those items can be any type (for instance: integers, decimals, and strings).  For instance, we can create a variable called `hhh` in Python that holds a list of first names:
+```
+>>> hhh = ["Bob", "Larry", "Susan", "Alice"]
+```
+Notice that a list starts and ends with square brackets `[]`.  It also has commas in between the items in the list.  Here is an example with a list of integers:
+```
+>>> hhh = [1, 5, 6, 7]
+```
+
+We can also ask Python for any item in that list.  For instance, if we want to show the first item in the list:
+```
+>>> hhh[0]
+```
+Wait, hang on a second, why did we use `0` instead of `1`?  The reason is: in computers, and thus in code, the first element in the list is defined to be at the `0` offset from the start of the list.  Thus, if we want to access items in the list the index we use is one less than the number of the item you want to refer to.  So, to get `Larry` from the `hhh` variable, we would access the element at index 1: `hhh[1]`
+
+### Try it!
+Create some lists of integers, decimals, and strings.  Try making a list of your favorite colors, or places you want to visit, or the ages of the people in your family.
+
+## Activity 8  Fun and Games
+Now you know some basics about Python, so we are going to turn you loose with some fun Python games.  Go to the menu button in the upper left corner of the screen and click it.  Choose "Games" and then "Python games".  A screenshot of the menu item is shown below:
+
+![Python exception screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/menu_python_games.png)
+
+Once you click on that item it will bring up a list of games you can play that were written in Python.  Feel free to play those games.  However, if you want to write some code for those games, you can open the Python code in an editor and change them!  If you want to edit the game code, go back to your Python interpreter window and choose "File" and then choose "Open".  Navigate to the "python_games" directory and choose the file that is named the same as the game you want to edit.  When that code comes up it will be in an editor that you can use to change the code.  Go through the code and try changing some values to see how it affects the game.  Can you change the color of the squirrel?  Can you make the snake longer to start out?  Have fun changing the code and be sure to ask questions!
+
+# Conclusion
+We hope you had fun learning some Python code today.  If you have any questions, please feel free to ask one of our volunteers.  Keep trying out more code with Python, and most importantly: don't give up!  Python can be a lot of fun.
+
+## Links to more information
+
+If you would like more information on the following topics, hit the websites listed:
+[Raspberry Pi](http://www.raspberrypi.org)
+[Python](https://www.python.org)
+[San Antonio Code Jam](http://www.sacodejam.com/)
