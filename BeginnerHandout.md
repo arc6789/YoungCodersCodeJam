@@ -163,7 +163,7 @@ That code creates a variable called `my_string` and stores the text `abc123` in 
 Create some strings with some fun phrases.  Try creating a joke by setting the variables with the strings that make up the joke.  Make sure you put all your text content in quotes, and leave the variables outside the quotes.
 
 ## Activity 6  Exceptions
-Sometimes you, or Python, encounters an error in your code.  Whenever Python has an error it generates what is called an **exception**.  Exceptions aren't bad, and they aren't a sign that you broke Python, but they do mean something went wrong.  An example of en exception is shown in the screenshot below:
+Sometimes you, or Python, encounters an error in your code.  Whenever Python has an error it generates what is called an **exception**.  Exceptions aren't bad, and they aren't a sign that you broke Python, but they do mean something went wrong.  An example of an exception is shown in the screenshot below:
 
 ![Python exception screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/exception.png)
 
