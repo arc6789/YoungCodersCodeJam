@@ -96,7 +96,7 @@ One of the most powerful things we can do with Python, besides math, is to compa
 >>> 5 < 3
 ```
 
-That statement asks Python if the number `5` is less than the number `3`.  We  expect Python to answer `True`.  Did it?
+That statement asks Python if the number `5` is less than the number `3`.  We  expect Python to answer `False`.  Did it?
 
 Here is a list of the comparison operators and what comparison they will ask Python to perform:
 
