@@ -43,3 +43,34 @@ The generic form of a `while` loop in Python is:
 while(conditional):
     <code to run> # as long as the conditional is True
 ```
+
+## For loops
+
+For loops are another common kind of loop. They are telling the computer to run some code `for` every thing in the conditional. That's a little confusing, let's look at an example.
+
+```python
+fruit_list = ['apple', 'banana', 'pear', 'pineaple']
+for fruit in fruit_list:
+    print fruit
+```
+
+Try running this code in your Python interpreter. What does this output?
+
+a `for` loop in Python has the generic form:
+```python
+for <variable_name> in <iterable>:
+    <Code to run>
+```
+
+Notice the word 'iterable' up there. A `for` loops uses iterables. This does not have to be a list. It can be a tuple, a string, a dictionary or any other iterable object.
+
+You can use a for loop to do something 10 times:
+
+```python
+for x in range(0, 10):
+    print "We're on time " + str(x)
+```
+
+### Try it!
+
+What values did `x` go through in that last example?  How could you change the example to loop from 1 to 100? From 10 to 20?  Try putting something else in the body of the `for` loop such as printing your name.
