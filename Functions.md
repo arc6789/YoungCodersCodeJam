@@ -64,3 +64,26 @@ Functions can take as many parameters as you'd like. Parameters are separated wi
 ### Try It!
 
 Type the `birthday_name_song` into your Python interpreter.  Try running it!  What happens when you don't give it a value?  What happens when you give it two values?  What other values could you add to the function to make it more useful?
+
+## Adding a return value
+
+Sometimes you might want the function to do some work for you. Functions can return values. Let's say we need a function to return someone's full name.
+
+```python
+def full_name(first, middle, last):
+    seperator = ' '
+    name = first + seperator + middle + seperator + last
+    return name
+```
+
+If you use the fuction like this:
+```
+>>> myname = full_name('Anna', 'Beth', 'Eilering')
+>>> print(myname)
+```
+
+What will you get back?
+
+### Try It!
+
+Type the function into your Python interpreter.  Try running it with your first, middle, and last name.  Do you have to have all three arguments?  What happens if you pass in a blank string `''` for one of the arguments?
