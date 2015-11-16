@@ -1,6 +1,6 @@
 # Control Flow
 
-# If statements
+## If statements
 
 You've already seen how to compare things using comparators like `>`,`<`, and `==`. But what if you want to change what your code does based on the result of a comparison?
 
