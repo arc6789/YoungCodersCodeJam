@@ -3,31 +3,9 @@ Welcome to programming in Python on the Raspberry Pi!  We put together this tuto
 
 Learning an entire programming language is really tough, but don't worry, we have folks available to help you!  We don't expect you to learn all the aspects of programming right here, right now.  We expect you will have questions and will run into problems as you work through these exercises.  That's okay!  Ask questions, work with other students and experts, and make your own learning journey.
 
-If you want to get an electronic copy of these instrucations, go to: [https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/BeginnerHandout.md](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/BeginnerHandout.md)
+If you want to get an electronic copy of these instructions, go to: [https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/Handout_01.md](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/Handout_01.md)
 
-# Background
-This section provides background information and howtos to get you up and running.  Skip to [Activities](#activities)
-
-## Setup, installation, and configuration
-Your Raspberry Pi should be already installed and ready to go!  All you have to do is make sure it is powered on.  As long as you can see something on the display and it is responding to keyboard and mouse inputs, you are ready to roll.
-
-## Starting Python
-In order to program in Python, we have to run a program on the Raspberry Pi called a Python interpreter.  To start the Python interpreter, go to the "Menu" in the top left corner of the screen and select "Programming" and "Python 2".  The menu item is shown in the screenshot below:
-
-![Python Menu item screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/menu_python_interpreter.png)
-
-Once you've clicked on the Python interpreter, it should start up and show you a window that looks like this:
-
-![Python interpreter screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/python_interpreter_window.png)
-
-**Note: Any time you need to restart Python because it crashes or closes just repeat these steps!**
-
-## Interacting with the Python interpreter
-The Python interpreter takes what you type and, after you press enter, it compiles your code (a fancy phrase that means translate it into computer language) and executes your code.  To give the interpreter your code, type it where you see the `>>>` prompt in the window.  For instance, when you first start it up you will see something like this:
-
-![Python interpreter screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/python_interpreter_window.png)
-
-If you want to enter code, just start typing in there!
+This is the first introductory set of activities to get your feet wet with Python on the Raspberry Pi.
 
 # Activities
 Follow along with the lessons in this section and we will get you programming in Python on the Raspberry Pi in no time!
@@ -167,7 +145,7 @@ Create some strings with some fun phrases.  Try creating a joke by setting the v
 ## Activity 6  Exceptions
 Sometimes you, or Python, encounters an error in your code.  Whenever Python has an error it generates what is called an **exception**.  Exceptions aren't bad, and they aren't a sign that you broke Python, but they do mean something went wrong.  An example of an exception is shown in the screenshot below:
 
-![Python exception screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/exception.png)
+![Python exception screenshot](./exception.png)
 
 If you get an exception, take a look at your code and see if you can figure out what went wrong.  If you can't figure it out, feel free to ask one of us for help!  
 
@@ -189,17 +167,6 @@ Wait, hang on a second, why did we use `0` instead of `1`?  The reason is: in co
 
 ### Try it!
 Create some lists of integers, decimals, and strings.  Try making a list of your favorite colors, or places you want to visit, or the ages of the people in your family.
-
-## Activity 8  Fun and Games
-Now you know some basics about Python, so we are going to turn you loose with some fun Python games.  Go to the menu button in the upper left corner of the screen and click it.  Choose "Games" and then "Python games".  A screenshot of the menu item is shown below:
-
-![Python exception screenshot](https://github.com/jeremyprice/YoungCodersCodeJam/blob/master/menu_python_games.png)
-
-Once you click on that item it will bring up a list of games you can play that were written in Python.  Feel free to play those games.  However, if you want to write some code for those games, you can open the Python code in an editor and change them!  If you want to edit the game code, go back to your Python interpreter window and choose "File" and then choose "Open".  Navigate to the "python_games" directory and choose the file that is named the same as the game you want to edit.  When that code comes up, it will be in an editor that you can use to change the code.  Go through the code and try changing some values to see how it affects the game.  
-* Can you change the color of the squirrel?  
-* Can you make the snake longer to start out?  
-
-Have fun changing the code and be sure to ask questions!
 
 # Conclusion
 We hope you had fun learning some Python code today.  If you have any questions, please feel free to ask one of our volunteers.  Keep trying out more code with Python, and most importantly: don't give up!  Python can be a lot of fun.
